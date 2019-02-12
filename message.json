@@ -1,0 +1,173 @@
+{
+    "subject": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4",
+    "eventType": "Microsoft.Resources.ResourceWriteSuccess",
+    "eventTime": "2019-02-07T20:37:23.3949305Z",
+    "id": "7c56be45-42ca-490a-8a34-1a24268ca147",
+    "data": {
+        "authorization": {
+            "scope": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4",
+            "action": "Microsoft.Storage/storageAccounts/write",
+            "evidence": {
+                "role": "Subscription Admin"
+            }
+        },
+        "claims": {
+            "aud": "https://management.core.windows.net/",
+            "iss": "https://sts.windows.net/c5e2dc3f-0ddb-471a-a3d9-2bdc79622144/",
+            "iat": "1549571393",
+            "nbf": "1549571393",
+            "exp": "1549575293",
+            "http://schemas.microsoft.com/claims/authnclassreference": "1",
+            "aio": "42JgYLCxEf9V4hD+InnGWs6mddnfjiiWhb9vXdPclnsj4Pop400A",
+            "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+            "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+            "appidacr": "2",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Martinez",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sylvain",
+            "groups": "ead89ac5-3505-4e16-8d93-a4542c64b13d,cb4af3b7-b1b8-46bf-b5c3-00fcc31c9e0b,6120dca6-44f4-4372-8577-3986395a9933,a590242d-17a1-4853-a7b6-7bcf0315d3d4,dc7713fa-f094-468b-8401-6c137d89f3ba",
+            "ipaddr": "82.255.43.58",
+            "name": "Sylvain Martinez",
+            "http://schemas.microsoft.com/identity/claims/objectidentifier": "1a836959-bdc0-41e7-9bac-c4e81d0f41a6",
+            "puid": "10037FFEA3C2F191",
+            "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "ge0KmqkT8V5rzPr5mGA8nT_47RPznKZ0_8U7dF00tdk",
+            "http://schemas.microsoft.com/identity/claims/tenantid": "c5e2dc3f-0ddb-471a-a3d9-2bdc79622144",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "sylvain.martinez@arolla.fr",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "sylvain.martinez@arolla.fr",
+            "uti": "SxtZnO725kqkLJUSz4wBAA",
+            "ver": "1.0",
+            "wids": "62e90394-69f5-4237-9190-012177145e10"
+        },
+        "correlationId": "7c56be45-42ca-490a-8a34-1a24268ca147",
+        "httpRequest": {
+            "clientRequestId": "21607f92-231b-41e8-87af-c02b77ad7006",
+            "clientIpAddress": "82.255.43.58",
+            "method": "PUT",
+            "url": "https://management.azure.com/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4?api-version=2018-07-01"
+        },
+        "resourceProvider": "Microsoft.Storage",
+        "resourceUri": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4",
+        "operationName": "Microsoft.Storage/storageAccounts/write",
+        "status": "Succeeded",
+        "subscriptionId": "aaf730c4-8602-43c2-a37d-a64946e30c8a",
+        "tenantId": "c5e2dc3f-0ddb-471a-a3d9-2bdc79622144"
+    },
+    "dataVersion": "2",
+    "metadataVersion": "1",
+    "topic": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a"
+}
+
+
+
+{
+    "subject": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4/blobServices/default/containers/testevent",
+    "eventType": "Microsoft.Resources.ResourceWriteSuccess",
+    "eventTime": "2019-02-10T21:04:42.9721528Z",
+    "id": "0977cb86-fa66-4205-b7ad-e2270abb2f42",
+    "data": {
+    "authorization": {
+    "scope": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4/blobServices/default/containers/testevent",
+    "action": "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+    "evidence": {
+    "role": "Subscription Admin"
+    }
+    },
+    "claims": {
+    "aud": "https://management.core.windows.net/",
+    "iss": "https://sts.windows.net/c5e2dc3f-0ddb-471a-a3d9-2bdc79622144/",
+    "iat": "1549830621",
+    "nbf": "1549830621",
+    "exp": "1549834521",
+    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+    "aio": "42JgYEjLE/1poFr1VbDPvXTvk+1XUtWTawPEjr9iFHz0QsFE6gwA",
+    "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+    "appidacr": "2",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Martinez",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sylvain",
+    "groups": "ead89ac5-3505-4e16-8d93-a4542c64b13d,cb4af3b7-b1b8-46bf-b5c3-00fcc31c9e0b,6120dca6-44f4-4372-8577-3986395a9933,a590242d-17a1-4853-a7b6-7bcf0315d3d4,dc7713fa-f094-468b-8401-6c137d89f3ba",
+    "ipaddr": "82.255.43.58",
+    "name": "Sylvain Martinez",
+    "http://schemas.microsoft.com/identity/claims/objectidentifier": "1a836959-bdc0-41e7-9bac-c4e81d0f41a6",
+    "puid": "10037FFEA3C2F191",
+    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "ge0KmqkT8V5rzPr5mGA8nT_47RPznKZ0_8U7dF00tdk",
+    "http://schemas.microsoft.com/identity/claims/tenantid": "c5e2dc3f-0ddb-471a-a3d9-2bdc79622144",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "sylvain.martinez@arolla.fr",
+    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "sylvain.martinez@arolla.fr",
+    "uti": "c4akGOiGBEeSPgViSOFRAA",
+    "ver": "1.0",
+    "wids": "62e90394-69f5-4237-9190-012177145e10"
+    },
+    "correlationId": "0977cb86-fa66-4205-b7ad-e2270abb2f42",
+    "httpRequest": {
+    "clientRequestId": "80cfe3d5-f947-46ef-bd30-6f6bca40500a",
+    "clientIpAddress": "82.255.43.58",
+    "method": "PUT",
+    "url": "https://management.azure.com/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4/blobServices/default/containers/testevent?restype=container&timeout=undefined&api-version=2018-07-01"
+    },
+    "resourceProvider": "Microsoft.Storage",
+    "resourceUri": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Storage/storageAccounts/testsma0184e4/blobServices/default/containers/testevent",
+    "operationName": "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+    "status": "Succeeded",
+    "subscriptionId": "aaf730c4-8602-43c2-a37d-a64946e30c8a",
+    "tenantId": "c5e2dc3f-0ddb-471a-a3d9-2bdc79622144"
+    },
+    "dataVersion": "2",
+    "metadataVersion": "1",
+    "topic": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a"
+    }
+
+
+
+    {
+        "eventType": "Microsoft.Resources.ResourceWriteSuccess",
+        "eventTypeVersion": "2",
+        "cloudEventsVersion": "0.1",
+        "source": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a#/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Resources/deployments/Microsoft.StorageAccount-20190212002719",
+        "eventID": "fec09158-da7c-4b86-b890-747800cf408f",
+        "eventTime": "2019-02-11T23:28:13.1312184Z",
+        "data": {
+        "authorization": {
+        "scope": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Resources/deployments/Microsoft.StorageAccount-20190212002719",
+        "action": "Microsoft.Resources/deployments/write",
+        "evidence": {
+        "role": "Subscription Admin"
+        }
+        },
+        "claims": {
+        "aud": "https://management.core.windows.net/",
+        "iss": "https://sts.windows.net/c5e2dc3f-0ddb-471a-a3d9-2bdc79622144/",
+        "iat": "1549925678",
+        "nbf": "1549925678",
+        "exp": "1549929578",
+        "http://schemas.microsoft.com/claims/authnclassreference": "1",
+        "aio": "ASQA2/8KAAAAw9djwSMNg1DfEk2mtLio0jGYslQ8wXATrtsg2EecfGY=",
+        "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+        "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+        "appidacr": "2",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Martinez",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sylvain",
+        "groups": "ead89ac5-3505-4e16-8d93-a4542c64b13d,cb4af3b7-b1b8-46bf-b5c3-00fcc31c9e0b,6120dca6-44f4-4372-8577-3986395a9933,a590242d-17a1-4853-a7b6-7bcf0315d3d4,dc7713fa-f094-468b-8401-6c137d89f3ba,6e7767a4-0a32-4015-b3f6-29b4599f8e47",
+        "ipaddr": "87.240.91.191",
+        "name": "Sylvain Martinez",
+        "http://schemas.microsoft.com/identity/claims/objectidentifier": "1a836959-bdc0-41e7-9bac-c4e81d0f41a6",
+        "puid": "10037FFEA3C2F191",
+        "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "ge0KmqkT8V5rzPr5mGA8nT_47RPznKZ0_8U7dF00tdk",
+        "http://schemas.microsoft.com/identity/claims/tenantid": "c5e2dc3f-0ddb-471a-a3d9-2bdc79622144",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "sylvain.martinez@arolla.fr",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "sylvain.martinez@arolla.fr",
+        "uti": "iUNsg9wy8EW0_FYnEDWIAA",
+        "ver": "1.0",
+        "wids": "62e90394-69f5-4237-9190-012177145e10"
+        },
+        "correlationId": "daa6546b-a5bf-4464-873a-8ce6317b5415",
+        "resourceProvider": "Microsoft.Resources",
+        "resourceUri": "/subscriptions/aaf730c4-8602-43c2-a37d-a64946e30c8a/resourceGroups/testsmabetter/providers/Microsoft.Resources/deployments/Microsoft.StorageAccount-20190212002719",
+        "operationName": "Microsoft.Resources/deployments/write",
+        "status": "Succeeded",
+        "subscriptionId": "aaf730c4-8602-43c2-a37d-a64946e30c8a",
+        "tenantId": "c5e2dc3f-0ddb-471a-a3d9-2bdc79622144"
+        }
+        }
